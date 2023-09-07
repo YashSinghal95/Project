@@ -28,14 +28,6 @@ function patientRegester() {
             <input type="Address" id="email" placeholder="Enter address...."></input>
           </div>
           <div class="form_control">
-            <label for="Doc_Id">Doctor ID*</label>
-            <input type="text" id="Doc_Id" placeholder="Enter ID...."></input>
-          </div>
-          <div class="form_control">
-            <label for="Speciality">Speciality*</label>
-            <input type="text" id="Speciality" placeholder="Enter your Speciality...."></input>
-          </div>
-          <div class="form_control">
             <label for="Password">Password for Login*</label>
             <input type="number" id="Pin_code" placeholder="Enter Pincode...."></input>
           </div>

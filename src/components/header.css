@@ -10,7 +10,6 @@
     color: white;
     display: flex; 
     align-items: center;
-    justify-content: space-between;
      
 }
 
@@ -31,7 +30,7 @@
     font-weight: bold;
     font-size: 30px;
     color: #edebeb;
-    margin-left: 150px;
     margin-right: 60px;
     text-align: centre;
+    margin-left: 450px;
 }

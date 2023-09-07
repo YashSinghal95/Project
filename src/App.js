@@ -8,6 +8,8 @@ import DoctorLogin from './components/doctorLogin/doctorLogin';
 import AdminLogin from './components/adminLogin/adminLogin';
 import PatientLogin from './components/patientLogin/patientLogin';
 import Header from './components/header';
+import Login from './components/login';
+import Regester from './components/regester';
 function App() {
   return (
     <Router>
@@ -17,6 +19,8 @@ function App() {
 
       <Routes>
         <Route path='/' element={<HomePage></HomePage>}></Route>
+        <Route path='/login' element={<Login></Login>}></Route>
+        <Route path='/regester' element={<Regester></Regester>}></Route>
         <Route path='/patientRegester' element={<PatientRegester></PatientRegester>}></Route>
         <Route path='/doctorRegester' element={<DoctorRegester></DoctorRegester>}></Route>
         <Route path='/doctorLogin' element={<DoctorLogin></DoctorLogin>}></Route>
