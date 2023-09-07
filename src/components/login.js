@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import './login.css';
 function login() {
   return (
-    <div className='home'>
+    <div className='home_login'>
         <div className='regesteredUser'>
             <h2>Login Here -</h2>
             <Link to="/patientLogin"><button className='button'>Patient Login</button></Link>
